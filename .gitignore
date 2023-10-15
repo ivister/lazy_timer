@@ -1,0 +1,13 @@
+.idea
+venv
+*test*.py
+*.pyc
+build
+*.egg-info
+*.env
+*.service
+*.target
+*.json
+*.DS_Store
+*.txt
+*.zip

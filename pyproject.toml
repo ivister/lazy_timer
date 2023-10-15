@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lazy-timer"
+description = "Lazy Timer"
+readme = "README.md"
+license = { file = "LICENSE" }
+version = "0.0.1"
+authors = [
+    { name = "Alex Shitik", email = "salexs95@yandex.ru" },
+]
+requires-python = ">=3.5"
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+#[project.urls]
+#"Homepage" = "https://github.com/pypa/sampleproject"
+#"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"
